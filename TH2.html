@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TH2 - Menu ngang</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background-color: #f4f6f9;
+        padding-top: 40px;
+      }
+
+      .main-menu {
+        background-color: #0d47a1;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .menu-list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 0 20px;
+      }
+
+      .menu-list a {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 16px 20px;
+        transition: all 0.3s ease;
+        border-radius: 4px;
+      }
+
+      .menu-list a:hover {
+        background-color: #1565c0;
+        color: #ffe082;
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="main-menu">
+      <ul class="menu-list">
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Đào tạo</a></li>
+        <li><a href="#">Tin tức</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
